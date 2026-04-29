@@ -1,4 +1,4 @@
-# ⚽ European Football Analytics Pipeline: End-to-End
+# ⚽ Pipeline de Análise de Dados do Futebol Europeu
 
 Este projeto é uma solução completa de Engenharia e Análise de Dados que automatiza a coleta, o processamento e a visualização de estatísticas das principais ligas de futebol da Europa (Premier League, La Liga, Serie A, Bundesliga, Ligue 1 e Liga Portugal).
 
