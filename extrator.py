@@ -13,7 +13,6 @@ Nesta etapa definitiva, aplicamos o conceito de <b>Single Source of Truth</b> (F
 import requests
 import pandas as pd
 import time
-from google.colab import files
 
 print("Iniciando a extração unificada (2022 a 2024/25) via football-data.org...")
 
@@ -78,12 +77,6 @@ df_final = pd.DataFrame(dados_unificados)
 
 print(f"\nExtração Concluída! Nossa base Mestre tem {df_final.shape[0]} linhas perfeitas e padronizadas.")
 
-# Salvando e baixando
+# Salvando
 nome_arquivo_final = 'base_mestre_futebol_europeu.csv'
 df_final.to_csv(nome_arquivo_final, index=False)
-
-try:
-    files.download(nome_arquivo_final)
-    print("Download do CSV iniciado!")
-except Exception as e:
-    print(f"O navegador bloqueou o download automático. Resgate o arquivo '{nome_arquivo_final}' na pasta lateral esquerda do Colab.")
