@@ -1,0 +1,34 @@
+name: Atualiza Dados Futebol Diariamente
+
+# Quando o robô deve trabalhar?
+on:
+  schedule:
+    - cron: '0 3 * * *' # Todo dia às 3:00 da manhã
+  workflow_dispatch: # Permite rodar clicando em um botão manualmente
+
+jobs:
+  atualizar-dados:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Clonar o repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar o Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar bibliotecas (Pandas e Requests)
+        run: pip install pandas requests
+
+      - name: Rodar o script de extração
+        run: python extrator.py # Certifique-se de que o nome do seu arquivo .py é esse
+
+      - name: Salvar o novo CSV no GitHub
+        run: |
+          git config --global user.name 'Robo Automacao'
+          git config --global user.email 'robo@futebol.com'
+          git add *.csv
+          git diff --quiet && git diff --staged --quiet || git commit -m "Atualização automática dos dados da API"
+          git push
