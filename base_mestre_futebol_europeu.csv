@@ -32,12 +32,12 @@ PL,Premier League,2026,10,Fulham FC,48,34,14,6,14,44,46,-2,WDLWD
 PL,Premier League,2026,11,Everton FC,47,34,13,8,13,41,41,0,LLDWL
 PL,Premier League,2026,12,Sunderland AFC,46,34,12,10,12,36,45,-9,LLWWL
 PL,Premier League,2026,13,Crystal Palace FC,43,33,11,10,12,36,39,-3,LDWDW
-PL,Premier League,2026,14,Newcastle United FC,42,34,12,6,16,46,50,-4,LLLLW
-PL,Premier League,2026,15,Leeds United FC,40,34,9,13,12,44,51,-7,DWWDD
+PL,Premier League,2026,14,Leeds United FC,43,35,10,13,12,47,52,-5,WDWWD
+PL,Premier League,2026,15,Newcastle United FC,42,34,12,6,16,46,50,-4,LLLLW
 PL,Premier League,2026,16,Nottingham Forest FC,39,34,10,9,15,41,45,-4,WWDWD
 PL,Premier League,2026,17,West Ham United FC,36,34,9,9,16,42,58,-16,WDWLD
 PL,Premier League,2026,18,Tottenham Hotspur FC,34,34,8,10,16,43,53,-10,WDLLD
-PL,Premier League,2026,19,Burnley FC,20,34,4,8,22,34,68,-34,LLLLD
+PL,Premier League,2026,19,Burnley FC,20,35,4,8,23,35,71,-36,LLLLL
 PL,Premier League,2026,20,Wolverhampton Wanderers FC,17,34,3,8,23,24,62,-38,LLLDW
 PD,Primera Division,2025,1,FC Barcelona,88,38,28,4,6,102,39,63,WLWWW
 PD,Primera Division,2025,2,Real Madrid CF,84,38,26,6,6,78,38,40,WWWLW
@@ -73,9 +73,9 @@ PD,Primera Division,2026,11,Rayo Vallecano de Madrid,39,33,9,12,12,33,41,-8,DWLW
 PD,Primera Division,2026,12,Valencia CF,39,33,10,9,14,37,48,-11,WDLLW
 PD,Primera Division,2026,13,RCD Espanyol de Barcelona,39,33,10,9,14,37,49,-12,DLLDL
 PD,Primera Division,2026,14,Elche CF,38,33,9,11,13,44,50,-6,WWWLW
-PD,Primera Division,2026,15,Girona FC,38,33,9,11,13,36,50,-14,LLDWL
-PD,Primera Division,2026,16,Deportivo Alavés,36,33,9,9,15,38,49,-11,WLDDW
-PD,Primera Division,2026,17,RCD Mallorca,35,33,9,8,16,41,51,-10,LDWWL
+PD,Primera Division,2026,15,RCD Mallorca,38,34,10,8,16,42,51,-9,WLDWW
+PD,Primera Division,2026,16,Girona FC,38,34,9,11,14,36,51,-15,LLLDW
+PD,Primera Division,2026,17,Deportivo Alavés,36,33,9,9,15,38,49,-11,WLDDW
 PD,Primera Division,2026,18,Sevilla FC,34,33,9,7,17,40,55,-15,LLWLL
 PD,Primera Division,2026,19,Levante UD,33,33,8,9,16,37,50,-13,DWWLW
 PD,Primera Division,2026,20,Real Oviedo,28,33,6,10,17,26,51,-25,LDWWL
@@ -115,10 +115,10 @@ SA,Serie A,2026,13,Torino FC,41,34,11,8,15,39,56,-17,DDWWL
 SA,Serie A,2026,14,Genoa CFC,39,34,10,9,15,40,48,-8,LWWLL
 SA,Serie A,2026,15,ACF Fiorentina,37,34,8,13,13,38,45,-7,DDWWD
 SA,Serie A,2026,16,Cagliari Calcio,36,34,9,9,16,36,49,-13,WLWLL
-SA,Serie A,2026,17,US Lecce,29,34,7,8,19,22,46,-24,DDLLL
+SA,Serie A,2026,17,US Lecce,32,35,8,8,19,24,47,-23,WDDLL
 SA,Serie A,2026,18,US Cremonese,28,34,6,10,18,26,51,-25,LDLLW
 SA,Serie A,2026,19,Hellas Verona FC,19,34,3,10,21,23,56,-33,DLLLL
-SA,Serie A,2026,20,AC Pisa 1909,18,34,2,12,20,24,61,-37,LLLLL
+SA,Serie A,2026,20,AC Pisa 1909,18,35,2,12,21,25,63,-38,LLLLL
 BL1,Bundesliga,2025,1,FC Bayern München,82,34,25,7,2,99,32,67,WWDWW
 BL1,Bundesliga,2025,2,Bayer 04 Leverkusen,69,34,19,12,3,72,43,29,DLDWD
 BL1,Bundesliga,2025,3,Eintracht Frankfurt,60,34,17,9,8,68,46,22,WDDWD
